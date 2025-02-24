@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <style>
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a{
+  color: black;
+  text-decoration-color: greenyellow;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: 200;
+}
+#pic{
+  margin-left: 390px;
+}
+audio{
+  background-color: red;
+  margin-left: 675px;
+}
+</style>
+<meta charset="utf-8">
+<title>galerij</title>
+</head>
+<body>
+<header>
+  <div id="pic"><img src="NatparkEifel.jpg" alt="NationaalparkEifelDuitsland" width="950" height="250"></div><h2>Nationaalpark-Eifel</h2><br>
+<nav>
+  <a href="index.html">INDEX</a><br>
+  <a href="galerij.html">GALERIJ</a><br>
+  <a href="info.html">INFO</a><br>
+</nav>
+<br>
+</header>
+
+<figure>
+  <div class="row">
+    <div class="column">
+      <img src="eltz.webp" alt="Burg Eltz Wierschem" width="495" height="315">
+    </div>
+    <div class="column">
+      <img src="eifelkaart.jpeg" alt="Landkaart Eifel" width="495" height="315">
+    </div>
+    <div class="column">
+      <img src="wasserfall.jpg" alt="dreimühlen-Wasserfall" width="495" height="315">
+    </div>
+  </div>
+</figure>
+<br>
+<audio src="NatureSoundMeditationBellsFarintheVillage.mp3" controls></audio>
+<footer><p>© M. Uiterwijk 2025</p></footer>
+</body>
+</html>
